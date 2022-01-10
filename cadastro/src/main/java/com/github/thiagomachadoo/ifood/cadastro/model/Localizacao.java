@@ -1,9 +1,9 @@
-package com.github.thiagomachadoo.ifood.cadastro.entity;
+package com.github.thiagomachadoo.ifood.cadastro.model;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "restaurante")
+@Table(name="restaurante")
 public class Localizacao {
 
     @Id

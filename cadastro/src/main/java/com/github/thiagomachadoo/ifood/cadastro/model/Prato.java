@@ -1,4 +1,4 @@
-package com.github.thiagomachadoo.ifood.cadastro.entity;
+package com.github.thiagomachadoo.ifood.cadastro.model;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 
 
 @Entity
-@Table(name = "prato")
+@Table(name="prato")
 public class Prato extends PanacheEntityBase {
 
     @Id
