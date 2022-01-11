@@ -13,7 +13,7 @@ import java.util.Optional;
 @Path("/restaurantes")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class RestauranteResource {
+public class RestauranteController {
 
     @GET
     public List<Restaurante> buscar(){
